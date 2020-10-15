@@ -1,0 +1,17 @@
+{
+    "virtualMachine_name": {
+        "value": "minecraftvm"
+    },
+    "virtualMachine_id": {
+        "value": "/subscriptions/0208f208-847e-4ce3-ade5-7349ad21eb72/resourcegroups/cbckids-rg/providers/microsoft.compute/virtualmachines/minecraftvm"
+    },
+    "virtualMachine_rg": {
+        "value": "cbckids-rg"
+    },
+    "schedule_location": {
+        "value": "eastus"
+    },
+    "schedule_time": {
+        "value": "0100"
+    }
+}
