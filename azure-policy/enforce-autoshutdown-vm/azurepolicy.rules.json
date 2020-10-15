@@ -32,9 +32,6 @@
                         "virtualMachine_id": {
                             "value": "[field('id')]"
                         },
-                        "virtualMachine_rg": {
-                            "value": "[resourcegroup().name]"
-                        },
                         "schedule_location": {
                             "value": "[field('location')]"
                         },
