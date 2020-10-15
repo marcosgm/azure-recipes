@@ -65,9 +65,6 @@
                                 "apiVersion": "2018-09-15",
                                 "name": "[concat('shutdown-computevm-',parameters('virtualMachine_name'))]",
                                 "location": "[parameters('schedule_location')]",
-                                "dependsOn": [
-                                    "[parameters('virtualMachine_id')]"
-                                ],
                                 "properties": {
                                     "status": "Enabled",
                                     "taskType": "ComputeVmShutdownTask",
