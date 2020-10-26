@@ -1,3 +1,4 @@
+#alternative approach: https://github.com/HolgerReiners/Azure-Manage-ServiceTagUDR
 $SERVICETAG_SERVICE="AzureDatabricks" 
 $UDR_RESOURCE_GROUP_NAME="databricksnetwork-rg"
 $DATABRICKS_REGION="centralus"
