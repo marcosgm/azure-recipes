@@ -1,0 +1,28 @@
+{
+    "mode": "All",
+    "policyRule": {
+        "if": {
+            "allOf": [
+                {
+                    "field": "type",
+                    "equals": "Microsoft.Storage/storageAccounts"
+                },
+                {
+                    "anyOf": [
+                        {
+                            "field": "Microsoft.Storage/storageAccounts/blobServices/containerDeleteRetentionPolicy",
+                            "equals": "false"
+                        },
+                        {
+                            "field": "Microsoft.Storage/storageAccounts/blobServices/containerDeleteRetentionPolicy",
+                            "equals": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "then": {
+            "effect": "audit"
+        }
+    }
+}
